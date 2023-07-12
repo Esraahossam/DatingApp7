@@ -34,16 +34,6 @@ namespace API.Data
            
         }
 
-        // public Task<MemberDto> GetMembersAsync(string username)
-        // {
-        //     throw new NotImplementedException();
-        // }
-
-        // public Task<IEnumerable<MemberDto>> GetMembersAsync()
-        // {
-        //     throw new NotImplementedException();
-        // }
-
         public async Task<AppUser> GetUserByIdAsync(int id)
         {
            
